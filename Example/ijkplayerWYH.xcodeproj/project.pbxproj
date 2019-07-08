@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F60759715FAE8EFFFB12E56 /* ijkplayerWYH.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ijkplayerWYH.podspec; path = ../ijkplayerWYH.podspec; sourceTree = "<group>"; };
+		0F60759715FAE8EFFFB12E56 /* ijkplayerWYH.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ijkplayerWYH.podspec; path = ../ijkplayerWYH.podspec; sourceTree = "<group>"; };
 		29264F1833FD62D587E0A82B /* Pods-ijkplayerWYH_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkplayerWYH_Tests.release.xcconfig"; path = "Target Support Files/Pods-ijkplayerWYH_Tests/Pods-ijkplayerWYH_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3F3BAD36AC9BCBF358609C45 /* Pods_ijkplayerWYH_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijkplayerWYH_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ijkplayerWYH_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ijkplayerWYH_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76CADA4B73D16A072070B117 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76CADA4B73D16A072070B117 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92654FD477BC1B1B03A8EADE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92654FD477BC1B1B03A8EADE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A4009F993D2F41F120700C2B /* Pods-ijkplayerWYH_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkplayerWYH_Example.release.xcconfig"; path = "Target Support Files/Pods-ijkplayerWYH_Example/Pods-ijkplayerWYH_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB203166A34C0D279105EB96 /* Pods-ijkplayerWYH_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkplayerWYH_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ijkplayerWYH_Tests/Pods-ijkplayerWYH_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E25EF802564C98FEFAB59D89 /* Pods_ijkplayerWYH_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijkplayerWYH_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +103,7 @@
 				CB203166A34C0D279105EB96 /* Pods-ijkplayerWYH_Tests.debug.xcconfig */,
 				29264F1833FD62D587E0A82B /* Pods-ijkplayerWYH_Tests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -247,9 +248,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "295687016@qq.com";
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = 2332ATH7DA;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -260,7 +258,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -497,7 +494,6 @@
 			baseConfigurationReference = E5D27BB9AC4E9425C513529A /* Pods-ijkplayerWYH_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2332ATH7DA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ijkplayerWYH/ijkplayerWYH-Prefix.pch";
 				INFOPLIST_FILE = "ijkplayerWYH/ijkplayerWYH-Info.plist";
@@ -514,7 +510,6 @@
 			baseConfigurationReference = A4009F993D2F41F120700C2B /* Pods-ijkplayerWYH_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2332ATH7DA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ijkplayerWYH/ijkplayerWYH-Prefix.pch";
 				INFOPLIST_FILE = "ijkplayerWYH/ijkplayerWYH-Info.plist";
