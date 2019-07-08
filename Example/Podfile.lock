@@ -1,0 +1,16 @@
+PODS:
+  - ijkplayerWYH (0.1.1)
+
+DEPENDENCIES:
+  - ijkplayerWYH (from `../`)
+
+EXTERNAL SOURCES:
+  ijkplayerWYH:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ijkplayerWYH: 70c047ee9d141d0594381f0f8a1fff21af61fbae
+
+PODFILE CHECKSUM: f32d77f285e58275fb8352a177e16788108317b6
+
+COCOAPODS: 1.7.1
