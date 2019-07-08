@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ijkplayerWYH_Example' do
+  pod 'ijkplayerWYH', :path => '../'
+
+  target 'ijkplayerWYH_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
